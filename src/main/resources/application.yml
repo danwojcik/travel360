@@ -8,3 +8,12 @@ spring:
         ddl-auto: update
 server:
   port: 9090
+
+  #ACTUATOR INFO
+info:
+  app:
+    name: @project.name@
+    version: @project.version@
+    profile: ${spring.profiles.name}
+  serverInfo:
+    os: ${os.name}
