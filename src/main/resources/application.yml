@@ -18,6 +18,9 @@ info:
   serverInfo:
     os: ${os.name}
     osVersion: ${os.version}
+  user:
+    timeZone: ${user.timezone}
+    country: ${user.country}
 
 management:
   endpoints:
