@@ -4,7 +4,6 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 import pl.sda.travel360.controller.request.AddCountryRequest;
 import pl.sda.travel360.controller.response.GetCountriesResponse;
-import pl.sda.travel360.domain.Country;
 import pl.sda.travel360.dto.CountryDto;
 import pl.sda.travel360.service.CountryService;
 
