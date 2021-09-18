@@ -28,5 +28,6 @@ public class CountryController {
         var countryDto = CountryDto.builder()
                 .name(request.getCountry())
                 .build();
+        service.addCountry(countryDto);
     }
 }
